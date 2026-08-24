@@ -75,7 +75,7 @@ The Power BI report was designed with a premium, corporate "Dark Theme" UI/UX, u
 
 <div align="center">
   <img src="assets/talent_analytics.png" alt="Talent Analytics" width="48%">
-  <img src="assets/movie_details.png" alt="Movie Details" width="48%">
+  <img src="assets/movies_details.png" alt="Movie Details" width="48%">
 </div>
 
 ---
