@@ -116,27 +116,46 @@ movies-financial-analytics/
 git clone https://github.com/your-username/movies-financial-analytics.git
 ```
 
-2. Navigate to the project directory:
+---
+
+## 🚀 Reproduction & Setup Guide
+
+**1. Clone the Repository**
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/movies-financial-analytics.git
 cd movies-financial-analytics
 ```
 
-3. Run `scripts/movies_etl_pipeline.py` to process the raw data and generate the processed `.csv` files.
+**2. Execute Python ETL Pipeline**
 
-4. Open **pgAdmin 4**, create a new PostgreSQL database, and execute `sql/01_schema_ddl.sql`. Then import the processed CSV files into the database.
+- Run `scripts/movies_etl_pipeline.py` to process the raw movie data.
+- Ensure the processed `.csv` files are generated successfully.
 
-5. Execute `sql/02_data_cleaning.sql` to clean and prepare the data for analysis.
+**3. Setup PostgreSQL Database**
 
-6. Open `reports/Movies_Financial_Analytics_Dashboard.pbix` in **Power BI Desktop**.
+- Create a new PostgreSQL database.
+- Execute `sql/01_schema_ddl.sql` to create the required database tables.
+- Import the processed CSV files into the corresponding tables.
+- Execute `sql/02_data_cleaning.sql` to clean and prepare the data for analysis.
 
-7. Go to **Transform Data → Data Source Settings**, update the PostgreSQL server and credentials according to your local setup, and click **Refresh**.
+**4. Launch Power BI Dashboard**
 
-## 👨‍💻 Author
+- Open `reports/Movies_Financial_Analytics_Dashboard.pbix` using Power BI Desktop.
+- Go to **Transform Data → Data Source Settings**.
+- Update the PostgreSQL server and credentials according to your local database configuration.
+- Click **Refresh** to load the data into the dashboard.
 
-**Nihat Rzaquluzade** | *Junior Data Analyst*
+---
+
+## 👤 Author
+
+**Nihat Rzaquluzade | Junior Data Analyst**
+
+This project was developed as a professional **Data Analytics portfolio project**, demonstrating skills in Python, PostgreSQL, ETL processes, data cleaning, SQL analysis, and Power BI data visualization.
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USERNAME)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nihat-rzaquluzade-624b332a9/)
 
 ---
