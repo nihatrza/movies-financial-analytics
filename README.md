@@ -107,3 +107,34 @@ movies-financial-analytics/
 │   └── Movies_Financial_Analytics_Dashboard.pbix
 │
 └── README.md                         # Project documentation
+
+## ⚙️ How to Reproduce
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/movies-financial-analytics.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd movies-financial-analytics
+```
+
+3. Run `scripts/movies_etl_pipeline.py` to process the raw data and generate the processed `.csv` files.
+
+4. Open **pgAdmin 4**, create a new PostgreSQL database, and execute `sql/01_schema_ddl.sql`. Then import the processed CSV files into the database.
+
+5. Execute `sql/02_data_cleaning.sql` to clean and prepare the data for analysis.
+
+6. Open `reports/Movies_Financial_Analytics_Dashboard.pbix` in **Power BI Desktop**.
+
+7. Go to **Transform Data → Data Source Settings**, update the PostgreSQL server and credentials according to your local setup, and click **Refresh**.
+
+## 👨‍💻 Author
+
+**Nihat Rzaquluzade** | *Junior Data Analyst*
+
+- **LinkedIn:** (https://www.linkedin.com/in/nihat-rzaquluzade-624b332a9/)
+- **GitHub:** (https://github.com/nihatrza)
