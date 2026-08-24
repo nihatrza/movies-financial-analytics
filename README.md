@@ -136,5 +136,9 @@ cd movies-financial-analytics
 
 **Nihat Rzaquluzade** | *Junior Data Analyst*
 
-- **LinkedIn:** (https://www.linkedin.com/in/nihat-rzaquluzade-624b332a9/)
-- **GitHub:** (https://github.com/nihatrza)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nihat-rzaquluzade-624b332a9/)
+
+---
+
+<div align="center">
